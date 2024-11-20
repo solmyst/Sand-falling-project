@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1a1a1a;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.controls {
+    margin: 20px;
+    padding: 20px;
+    background: #333;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 8px 15px;
+    background: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.slider-container {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+}
+
+.value-display {
+    margin-left: 10px;
+    min-width: 30px;
+}

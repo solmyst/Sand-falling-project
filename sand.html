@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enhanced Magical Sand Art Creator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <link rel="stylesheet" href="sand.css">
+</head>
+<body>
+    <h1>Welcome to My Project</h1>
+    <div class="controls">
+        <div class="slider-container">
+            <label>Particle Size:</label>
+            <input type="range" id="sizeSlider" min="2" max="10" value="4">
+            <span class="value-display" id="sizeValue">4</span>
+        </div>
+        <div class="slider-container">
+            <label>Gravity:</label>
+            <input type="range" id="gravitySlider" min="1" max="20" value="10">
+            <span class="value-display" id="gravityValue">0.1</span>
+        </div>
+        <div class="slider-container">
+            <label>Spread:</label>
+            <input type="range" id="spreadSlider" min="1" max="15" value="5">
+            <span class="value-display" id="spreadValue">5</span>
+        </div>
+        <div class="slider-container">
+            <label>Color Speed:</label>
+            <input type="range" id="colorSpeedSlider" min="1" max="10" value="5">
+            <span class="value-display" id="colorSpeedValue">5</span>
+        </div>
+        <button onclick="togglePattern()">Toggle Pattern</button>
+        <button onclick="clearCanvas()">Clear Canvas</button>
+        <button onclick="toggleMirror()">Toggle Mirror Mode</button>
+        <button onclick="toggleRainbow()">Toggle Rainbow</button>
+    </div>
+    <script src="sand.js"></script>
+</body>
+</html>
