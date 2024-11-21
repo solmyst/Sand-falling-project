@@ -177,4 +177,5 @@ function draw() {
 
     grid = nextGrid;
     velocityGrid = nextVelocityGrid;
+    
 }

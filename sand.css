@@ -22,7 +22,7 @@ body {
 button {
     margin: 5px;
     padding: 8px 15px;
-    background: #4CAF50;
+    background: #4b4791;
     border: none;
     border-radius: 5px;
     color: white;
@@ -31,7 +31,7 @@ button {
 }
 
 button:hover {
-    background: #45a049;
+    background: #8f3921;
 }
 
 .slider-container {
@@ -48,4 +48,28 @@ label {
 .value-display {
     margin-left: 10px;
     min-width: 30px;
+}
+
+.copyright-container {
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.copyright {
+    color: #888;
+    font-size: 0.8em;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    left: 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.copyright span {
+    font-weight: bold;
+    color: #aaa;
 }
